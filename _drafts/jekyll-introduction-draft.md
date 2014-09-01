@@ -1,7 +1,7 @@
 ---
 layout: post
 category : lessons
-tagline: "Supporting tagline"
+tagline: "副标题是这里设置的？"
 tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}

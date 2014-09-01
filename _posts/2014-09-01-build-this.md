@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "用Jeykll和Github Pages来搭建博客"
-description: ""
-category: "blog"
-tags: Github Jekyll
+description: "记录了一些搭建这个博客时的经历，和一些总结出来的小玩意"
+category: "Github Blog"
+tags: GithubPages Jekyll
 ---
 {% include JB/setup %}
 
@@ -15,7 +15,9 @@ tags: Github Jekyll
 
 ###Jekyll
 Jekyll是一个简单地博客静态网站模版，使用起来还是比较简单地。当然我也是刚刚上手，还有许多东西需要看一看。Jekyll是依靠规范地目录结构来维护网站的，譬如这篇文章就保存在_post文件夹下。
-使用Jekyll Bootstrap可以快速地生成一套标准化地Jekyll目录结构。Jekyll Bootstrap支持命令行命令操作，对我这个使用命令行地半吊子来说，还是很方便的。
+使用Jekyll Bootstrap可以快速地生成一套标准化地Jekyll目录结构。Jekyll Bootstrap支持命令行命令操作，譬如这边文章就是在仓库的根目录下执行 rake post title＝“build this”。对我这个使用命令行地半吊子来说，还是很方便的。    
+
+命令行利用jekyll server --watch 即可以实现网站的动态生成，文章写好保存好刷新localhost:4000就可以看到文章效果。预览满意了，就可以git commit, git push来完成博客的发布
 
 ###Markdown
 Jekyll和Github IO支持Markdown脚本，其实我个人也不知道Markdown是什么，就现在的理解，Markdown应该就是支持标签的一个轻量级的语言，目前这篇文章就在用Markdown的一部分标签撰写，还是挺方便的。当然Markdown应该还有更多强大的功能等待发掘。

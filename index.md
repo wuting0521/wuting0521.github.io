@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 珞珈山大舞厅
-tagline:
+tagline: 这个副标题是个啥
 ---
 {% include JB/setup %}
 
@@ -35,10 +35,11 @@ Here's a sample "posts list".
 -->
 
 
-###文章列表（这是个坑）
+###文章列表
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <span>{{ post.description }}</span>
   {% endfor %}
 </ul>
 
