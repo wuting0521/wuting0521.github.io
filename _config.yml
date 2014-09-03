@@ -9,7 +9,7 @@ highlighter: pygments
 # so be sure to set them if your theme uses them.
 #
 title : 珞珈山的大舞厅
-tagline: Site Tagline
+tagline: 123 321 1234567
 author :
   name : Tim Wu
   email : wuting0521@gmail.com
@@ -79,19 +79,20 @@ JB :
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
   #
+  
   comments :
-    provider : disqus
+    provider : #disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : #jekyllbootstrap
     livefyre :
-      site_id : 123
+      site_id : #123
     intensedebate :
-      account : 123abc
+      account : #123abc
     facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
+      appid : #123
+      num_posts: #5
+      width: #580
+      colorscheme: #light
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
