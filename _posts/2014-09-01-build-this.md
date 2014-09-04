@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "用Jeykll和Github Pages来搭建博客"
-description: "搭建这个博客也算是纯属机缘巧合，这里记录了一些搭建这个博客时的经历，和一些总结出来的小玩意"
-category: "Github Blog"
+title: 用Jeykll和Github Pages来搭建博客
+description: 搭建这个博客也算是纯属机缘巧合，这里记录了一些搭建这个博客时的经历，和一些总结出来的小玩意
+category: 笔记心得
 tags: GithubPages Jekyll
 ---
 {% include JB/setup %}
@@ -21,7 +21,7 @@ tags: GithubPages Jekyll
 命令行利用jekyll server --watch 即可以实现网站的动态生成，文章写好保存好刷新localhost:4000就可以看到文章效果。预览满意了，就可以git commit, git push来完成博客的发布
 
 ###Markdown
-Jekyll和Github IO支持Markdown脚本，其实我个人也不知道Markdown是什么，就现在的理解，Markdown应该就是支持标签的一个轻量级的语言，目前这篇文章就在用Markdown的一部分标签撰写，还是挺方便的。当然Markdown应该还有更多强大的功能等待发掘。
+Jekyll和Github Pages支持Markdown脚本，其实我个人也不知道Markdown是什么，就现在的理解，Markdown应该就是支持标签的一个轻量级的语言，目前这篇文章就在用Markdown的一部分标签撰写，还是挺方便的。当然Markdown应该还有更多强大的功能等待发掘。
 
 ###编辑器
 不知道Mac有没有其他的强大的文本编辑器，目前使用的TextWrangler，感觉已经很强大了，待找到觉得更好用的，我再贴过来。

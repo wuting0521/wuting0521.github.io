@@ -9,7 +9,7 @@ highlighter: pygments
 # so be sure to set them if your theme uses them.
 #
 title : 珞珈山的大舞厅
-tagline: 123 321 1234567
+tagline: Test Tagline
 author :
   name : Tim Wu
   email : wuting0521@gmail.com
